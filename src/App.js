@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import CreateBlog from "./Pages/CreateBlog";
-import Home from "./Pages/Home";
+import CreateBlog from "./Pages/CreateBlog/CreateBlog";
+import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
-import SingleBlog from "./Pages/SingleBlog";
+import SingleBlog from "./Pages/Blog/SingleBlog";
 
 function App() {
   return (

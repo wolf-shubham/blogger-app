@@ -1,6 +1,6 @@
 import React from 'react';
-import Blog from '../components/Blog/Blog';
-import Header from '../components/Header/Header';
+import Blog from '../../components/Blog/Blog';
+import Header from '../../components/Header/Header';
 import './SingleBlog.css'
 
 function SingleBlog() {
