@@ -1,0 +1,25 @@
+.bgImage {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.blogFont {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.blogSpan1 {
+  position: absolute;
+  top: 18%;
+  font-size: 45px;
+}
+
+.blogSpan2 {
+  position: absolute;
+  top: 28%;
+  font-size: 25px;
+}

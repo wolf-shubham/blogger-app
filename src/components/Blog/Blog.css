@@ -1,0 +1,30 @@
+.blog {
+    width: 90%;
+    padding: 20px 0;
+    margin-left: 50px;
+    justify-content: center;
+    background-color: azure;
+}
+
+.blogImage {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.blogDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogText {
+    margin-top: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
