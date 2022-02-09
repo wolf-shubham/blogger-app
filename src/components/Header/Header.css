@@ -42,9 +42,19 @@
   list-style: none;
   align-items: center;
   text-decoration: none;
+  margin-left: 20px;
+
+}
+
+.logLink {
+  display: flex;
 }
 
 .loginLink {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
   margin-left: 20px;
 }
 
@@ -52,4 +62,9 @@
   text-decoration: none;
   font-size: 20px;
   color: grey;
+}
+
+.logout {
+  cursor: pointer;
+  margin-right: 20px;
 }
