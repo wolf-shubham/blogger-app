@@ -1,13 +1,12 @@
 import React from 'react';
-import Blog from '../../components/Blog/Blog';
 import Header from '../../components/Header/Header';
+import SinglePost from '../../components/SinglePost/SinglePost';
 import './SingleBlog.css'
 
 function SingleBlog() {
     return <div>
         <Header />
-        single blog
-        <Blog />
+        <SinglePost />
     </div>;
 }
 
